@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      // 强制重定向到 index.html
+      window.location.href = window.location.pathname === '/' 
+        ? window.location.href 
+        : window.location.origin + '/index.html';
+    </script>
+  </head>
+</html>
